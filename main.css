@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.hexColor{
+    text-transform: capitalize;
+}
+
+.hex{
+    font-size: 3rem;
+}
+
+.hexBtn{
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 20px 20px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #e03a72 100%);
+    font-size: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.hexBtn:hover{
+    background-image: linear-gradient(132deg, #00F260 0%,#0575E6 100%);
+    padding: 1.2rem 1.2rem;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
